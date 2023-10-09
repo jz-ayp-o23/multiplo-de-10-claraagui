@@ -1,6 +1,4 @@
-"""
-Inserta el encabezado aquí y escribe tu código abajo
-"""
+#Clara Paola Aguilar c. Numero que sea múltiplo de 10
 
 
 # Entradas
@@ -8,6 +6,6 @@ numero = int(input("Ingrese un número: "))
 
 # Proceso
 if numero % 10 == 0:
-    print("Múltiplo de 10")
+    print(f"El número {numero} es múltiplo de 10")
 else:
-    print("No es múltipo de 10")
+    print(f"El número {numero} es múltiplo de 10")
