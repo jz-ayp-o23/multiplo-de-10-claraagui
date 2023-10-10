@@ -10,6 +10,10 @@
       build:
         name: Autograding
         runs-on: ubuntu-latest
+        permissions:
+          contents: write
+          pull-requests: write
+          repository-projects: write
         steps:
           - uses: actions/checkout@v2
           - uses: education/autograding@v1
